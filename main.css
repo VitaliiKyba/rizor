@@ -14,3 +14,228 @@ body {
   text-decoration: none;
   font-family: "Rubik Mono One", sans-serif;
 }
+
+.header {
+}
+.head {
+}
+.logo {
+  // .logo__link
+
+  &__link {
+  }
+}
+.menu {
+  // .menu__link
+
+  &__link {
+    // .menu__link_active
+
+    &_active {
+    }
+  }
+}
+.main {
+}
+.title {
+  // .title__saw
+
+  &__saw {
+  }
+}
+.block-txt {
+}
+.watch-video {
+}
+.wattch-video {
+  // .wattch-video__video
+
+  &__video {
+  }
+}
+.description {
+  // .description__heading
+
+  &__heading {
+  }
+}
+.heading {
+}
+.arrow {
+}
+.baner {
+}
+.subtitle {
+  // .subtitle__background
+
+  &__background {
+  }
+}
+.advantage-video {
+}
+.about {
+  // .about__fdash
+
+  &__fdash {
+  }
+
+  // .about__ftext
+
+  &__ftext {
+  }
+
+  // .about__sdash
+
+  &__sdash {
+  }
+
+  // .about__stext
+
+  &__stext {
+  }
+
+  // .about__tdash
+
+  &__tdash {
+  }
+
+  // .about__ttext
+
+  &__ttext {
+  }
+}
+.advantages {
+}
+.design {
+}
+.definition {
+}
+.design-block {
+}
+.first {
+}
+.dash {
+}
+.second {
+}
+.third {
+}
+.color {
+  // .color__head
+
+  &__head {
+  }
+
+  // .color__description
+
+  &__description {
+  }
+}
+.bottom {
+  // .bottom__saw
+
+  &__saw {
+  }
+
+  // .bottom__baner
+
+  &__baner {
+  }
+}
+.modes {
+}
+.modes-text {
+  // .modes-text__head
+
+  &__head {
+  }
+
+  // .modes-text__txt
+
+  &__txt {
+  }
+}
+.modes-text-item1 {
+  // .modes-text-item1__dash1
+
+  &__dash1 {
+  }
+
+  // .modes-text-item1__def1
+
+  &__def1 {
+  }
+
+  // .modes-text-item1__dash2
+
+  &__dash2 {
+  }
+
+  // .modes-text-item1__def2
+
+  &__def2 {
+  }
+
+  // .modes-text-item1__def3
+
+  &__def3 {
+  }
+
+  // .modes-text-item1__def3.1
+
+  &__def3.1 {
+  }
+
+  // .modes-text-item1__def4
+
+  &__def4 {
+  }
+
+  // .modes-text-item1__def4.1
+
+  &__def4.1 {
+  }
+}
+.modes-text-item2 {
+}
+.modes-text-item3 {
+}
+.modes-text-item4 {
+}
+.modes-watch-video {
+  // .modes-watch-video__line
+
+  &__line {
+  }
+
+  // .modes-watch-video__play
+
+  &__play {
+  }
+}
+.footer {
+}
+.photo-footer {
+}
+.footer-block-txt {
+  // .footer-block-txt__head
+
+  &__head {
+  }
+
+  // .footer-block-txt__text
+
+  &__text {
+  }
+
+  // .footer-block-txt__btn
+
+  &__btn {
+  }
+}
+.all {
+  // .all__rights
+
+  &__rights {
+  }
+}
