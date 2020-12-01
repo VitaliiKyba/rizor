@@ -1,3 +1,13 @@
+body {
+  background-image: url("Слой 0.png");
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1920px;
+  height: 4038px;
+  z-index: 1;
+}
+
 * {
   margin: 0;
   padding: 0;
