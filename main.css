@@ -3,106 +3,111 @@ body {
   position: absolute;
   left: 0px;
   top: 0px;
-  width: 1920px;
-  height: 4038px;
-  z-index: 1;
+  width: 100vw;
+  max-width: 100%;
+  height: auto;
+  z-index: -1;
 }
 
 * {
   margin: 0;
   padding: 0;
   text-decoration: none;
-  font-family: "Rubik Mono One", sans-serif;
 }
 
-.header {
-}
 .head {
 }
 .logo {
-  // .logo__link
-
-  &__link {
-  }
+  margin-top: 3vw;
+  margin-left: 20%;
 }
+/*.logo__link {}*/
 .menu {
-  // .menu__link
-
-  &__link {
-    // .menu__link_active
-
-    &_active {
-    }
-  }
+  position: absolute;
+  top: 2.1vw;
+  left: 66vw;
+  display: flex;
+  justify-content: space-around;
 }
+.f12 {
+  position: absolute;
+  top: 5.6vw;
+  left: 65.3vw;
+  z-index: 99;
+}
+.menu__link {
+  display: block;
+  font-size: 1vw;
+  font-family: "Roboto";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 5.714;
+  text-align: left;
+}
+/*.menu__link_active {}
 .main {
 }
 .title {
-  // .title__saw
-
-  &__saw {
-  }
 }
+.title__saw {
+}*/
 .block-txt {
 }
 .watch-video {
 }
-.wattch-video {
-  // .wattch-video__video
-
-  &__video {
-  }
+.wattch-video__video {
+  position: absolute;
+  left: 50vw;
+  top: 12.3vw;
+  z-index: 100;
 }
 .description {
-  // .description__heading
-
-  &__heading {
-  }
+}
+.description__heading {
+  font-family: "Rubik Mono One", sans-serif;
+  font-size: 5vw;
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 27vw;
+  top: 21vw;
+  z-index: 89;
+}
+.subtext {
+  font-size: 1.1vw;
+  font-family: "Roboto";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.5;
+  text-align: left;
+  position: absolute;
+  left: 0vw;
+  top: 20vw;
+  z-index: 90;
 }
 .heading {
 }
 .arrow {
+  position: absolute;
+  left: 28.5vw;
+  top: 46vw;
+  z-index: 90;
 }
 .baner {
+  height: auto;
+  position: absolute;
+  left: 28.5vw;
+  top: 8vw;
+  z-index: 50;
 }
 .subtitle {
-  // .subtitle__background
-
-  &__background {
-  }
 }
 .advantage-video {
 }
 .about {
-  // .about__fdash
-
-  &__fdash {
-  }
-
-  // .about__ftext
-
-  &__ftext {
-  }
-
-  // .about__sdash
-
-  &__sdash {
-  }
-
-  // .about__stext
-
-  &__stext {
-  }
-
-  // .about__tdash
-
-  &__tdash {
-  }
-
-  // .about__ttext
-
-  &__ttext {
-  }
 }
 .advantages {
 }
@@ -114,128 +119,91 @@ body {
 }
 .first {
 }
+.about__fdash {
+}
 .dash {
+}
+.about__ftext {
 }
 .second {
 }
+.about__sdash {
+}
+.about__stext {
+}
 .third {
 }
+.about__tdash {
+}
+.about__ttext {
+}
 .color {
-  // .color__head
-
-  &__head {
-  }
-
-  // .color__description
-
-  &__description {
-  }
+}
+.color__head {
+}
+.color__description {
+}
+.subtitle__background {
 }
 .bottom {
-  // .bottom__saw
-
-  &__saw {
-  }
-
-  // .bottom__baner
-
-  &__baner {
-  }
+}
+.bottom__saw {
 }
 .modes {
 }
 .modes-text {
-  // .modes-text__head
-
-  &__head {
-  }
-
-  // .modes-text__txt
-
-  &__txt {
-  }
+}
+.modes-text__head {
+}
+.modes-text__txt {
 }
 .modes-text-item1 {
-  // .modes-text-item1__dash1
-
-  &__dash1 {
-  }
-
-  // .modes-text-item1__def1
-
-  &__def1 {
-  }
-
-  // .modes-text-item1__dash2
-
-  &__dash2 {
-  }
-
-  // .modes-text-item1__def2
-
-  &__def2 {
-  }
-
-  // .modes-text-item1__def3
-
-  &__def3 {
-  }
-
-  // .modes-text-item1__def3.1
-
-  &__def3.1 {
-  }
-
-  // .modes-text-item1__def4
-
-  &__def4 {
-  }
-
-  // .modes-text-item1__def4.1
-
-  &__def4.1 {
-  }
+}
+.modes-text-item1__dash1 {
+}
+.modes-text-item1__def1 {
 }
 .modes-text-item2 {
 }
+.modes-text-item1__dash2 {
+}
+.modes-text-item1__def2 {
+}
 .modes-text-item3 {
+}
+.modes-text-item1__def3 {
+}
+.modes-text-item1__def31 {
 }
 .modes-text-item4 {
 }
+.modes-text-item1__def4 {
+}
+.modes-text-item1__def41 {
+}
 .modes-watch-video {
-  // .modes-watch-video__line
-
-  &__line {
-  }
-
-  // .modes-watch-video__play
-
-  &__play {
-  }
+}
+.modes-watch-video__line {
+}
+.modes-watch-video__play {
+}
+.bottom__baner {
 }
 .footer {
 }
 .photo-footer {
 }
-.footer-block-txt {
-  // .footer-block-txt__head
-
-  &__head {
-  }
-
-  // .footer-block-txt__text
-
-  &__text {
-  }
-
-  // .footer-block-txt__btn
-
-  &__btn {
-  }
+.photo {
+  width: 100vw;
+  max-width: 100%;
 }
-.all {
-  // .all__rights
-
-  &__rights {
-  }
+.footer-block-txt {
+}
+.footer-block-txt__head {
+}
+.footer-block-txt__text {
+}
+.footer-block-txt__btn {
+}
+.all__rights {
 }
