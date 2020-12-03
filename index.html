@@ -3,12 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="main.css" />
+
     <script type="text/javascript" src="main.js"></script>
     <title>Rizor</title>
   </head>
@@ -106,12 +110,16 @@
         </div>
         <div class="color">
           <div class="color__head">
-            <p>ЦВЕТ</p>
+            <p class="colorhead">ЦВЕТ</p>
           </div>
           <div class="color__description">
-            <p>модель представлена сразу<br />в нескольких цветах.</p>
+            <p class="colordescription">
+              модель представлена сразу<br />в нескольких цветах.
+            </p>
           </div>
-          <img src="src/group12.png" alt="colors" />
+          <div class="color_board">
+            <img src="src/group12.png" class="gsapimg" alt="colors" />
+          </div>
         </div>
         <div class="subtitle__background">
           <img src="src/4.0 RIzor.png" alt="Rizor 4.0" />
@@ -119,7 +127,7 @@
       </div>
       <div class="bottom">
         <div class="bottom__saw">
-          <img src="src/Слой 23.png" alt="saw" />
+          <img src="src/Слой 23.png" class="saw-img" alt="saw" />
         </div>
         <div class="modes">
           <div class="modes-text">
@@ -152,10 +160,11 @@
             </div>
             <div class="modes-text-item3">
               <div class="modes-text-item1__def3">
-                <p>13<span>км/ч</span></p>
+                <h4>13</h4>
+                <p>км/ч</p>
               </div>
               <div class="modes-text-item1__def31">
-                <p>2</p>
+                <h4>2</h4>
               </div>
             </div>
             <div class="modes-text-item4">
@@ -179,7 +188,7 @@
           </div>
         </div>
         <div class="bottom__baner">
-          <img src="src/photo1.jpg" alt="photo1" />
+          <img src="src/photo1.jpg" class="bottom-baner__img" alt="photo1" />
         </div>
       </div>
     </main>
@@ -212,5 +221,7 @@
         </div>
       </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
   </body>
 </html>
