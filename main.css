@@ -394,8 +394,24 @@ body {
 .modes-watch-video {
 }
 .modes-watch-video__line {
+  position: absolute;
+  left: 42vw;
+  top: 142.5vw;
+  z-index: 63;
+}
+.mwvlimg {
+  width: 6.5vw;
+  height: auto;
+}
+.mwvplay {
+  width: 6vw;
+  height: auto;
 }
 .modes-watch-video__play {
+  position: absolute;
+  left: 47.5vw;
+  top: 162vw;
+  z-index: 63;
 }
 .bottom__baner {
   position: absolute;
@@ -407,9 +423,12 @@ body {
   width: 49vw;
   height: auto;
 }
-.footer {
-}
+/*.footer {
+}*/
 .photo-footer {
+  position: absolute;
+  top: 177vw;
+  z-index: 50;
 }
 .photo {
   width: 100vw;
@@ -418,10 +437,54 @@ body {
 .footer-block-txt {
 }
 .footer-block-txt__head {
+  font-size: 1.1vw;
+  font-family: "Roboto";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.5;
+  text-align: left;
+  position: absolute;
+  left: 24vw;
+  top: 8vw;
+  z-index: 200;
 }
 .footer-block-txt__text {
+  font-size: 1.2vw;
+  font-family: "Roboto";
+  color: rgb(255, 255, 255);
+  line-height: 1.667;
+  text-align: left;
+  position: absolute;
+  left: 24vw;
+  top: 10vw;
+  z-index: 85;
 }
 .footer-block-txt__btn {
+  box-sizing: border-box;
+  border-radius: 15%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 1, 0.2);
+  position: absolute;
+  left: 24vw;
+  top: 35vw;
+  width: 270px;
+  height: 50px;
+  z-index: 8;
 }
 .all__rights {
+  position: relative;
+  width: 100%;
+  height: 100hv;
+  top: 101vw;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 50;
+}
+.all__rights p {
+  color: #969696;
+  position: absolute;
+  z-index: 50;
 }
