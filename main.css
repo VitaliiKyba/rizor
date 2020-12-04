@@ -464,7 +464,7 @@ body {
 }
 .footer-block-txt__btn button {
   text-decoration: none;
-  box-sizing: border-box;
+  cursor: pointer;
   border-radius: 100px;
   background-color: rgb(255, 255, 255);
   font-size: 16px;
@@ -476,9 +476,9 @@ body {
   text-align: center;
   box-shadow: 0px 5px 5px 0px rgba(0, 0, 1, 0.2);
   position: absolute;
-  left: 24vw;
+  left: 23vw;
   top: 35vw;
-  width: 270px;
+  width: 200px;
   height: 50px;
   z-index: 188;
 }
@@ -494,6 +494,10 @@ body {
   z-index: 50;
 }
 .all__rights p {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  background: #000;
   color: #969696;
   position: absolute;
   z-index: 50;
