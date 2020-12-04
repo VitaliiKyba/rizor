@@ -1,17 +1,17 @@
-/*gsap
+gsap
   .timeline({
     scrollTrigger: {
-      trigger: ".main",
-      start: "center center",
-      end: "bottom top",
-      markers: true,
+      trigger: ".box",
+      start: "center 650",
+      end: "bottom 350",
+      //markers: true,
       scrub: true,
-      pin: true,
+      //pin: true,
     },
   })
-  .from(".colorhead", { x: innerWidth * -1 })
+  .from(".colorhead", { y: innerWidth * -1, rotate: 360 })
   .from(".colordescription", { x: innerWidth * 1 })
   .from(".gsapimg", {
     y: innerHeight * 1,
     rotate: 360,
-  });*/
+  });

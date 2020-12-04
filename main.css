@@ -27,16 +27,18 @@ body {
   height: auto;
 }
 .menu {
-  position: absolute;
-  top: -1.6vw;
-  left: 66vw;
+  width: 29vw;
   display: flex;
   justify-content: space-around;
+  position: absolute;
+  top: -1.6vw;
+  left: 65vw;
 }
+
 .f12 {
   position: absolute;
   top: 1.7vw;
-  left: 65.3vw;
+  left: 65vw;
   z-index: 99;
 }
 .menu__link {
@@ -50,8 +52,7 @@ body {
   text-align: left;
 }
 /*.menu__link_active {}
-.main {
-}
+
 .title {
 }
 .title__saw {
@@ -60,6 +61,7 @@ body {
 }
 .watch-video {
 }*/
+
 .wattch-video__video {
   position: absolute;
   left: 38.5vw;
@@ -114,9 +116,9 @@ body {
   width: 56.2vw;
   height: auto;
 }
+
 .subtitle {
   position: relative;
-  width: 100%;
 }
 .advantage-video {
   position: absolute;
@@ -234,7 +236,7 @@ body {
   position: relative;
   left: 65vw;
   top: 22.5vw;
-  z-index: 99;
+  z-index: 110;
 }
 .color__description {
   font-size: 1.2vw;
@@ -245,13 +247,13 @@ body {
   position: relative;
   left: 65.2vw;
   top: 24.6vw;
-  z-index: 63;
+  z-index: 110;
 }
 .color_board {
   position: relative;
   left: 58vw;
   top: 16.5vw;
-  z-index: 98;
+  z-index: 110;
 }
 .color_board_img {
   width: 20vw;
@@ -391,8 +393,8 @@ body {
   top: 167.5vw;
   z-index: 63;
 }
-.modes-watch-video {
-}
+/*.modes-watch-video {
+}*/
 .modes-watch-video__line {
   position: absolute;
   left: 42vw;
@@ -434,8 +436,8 @@ body {
   width: 100vw;
   max-width: 100%;
 }
-.footer-block-txt {
-}
+/*.footer-block-txt {
+}*/
 .footer-block-txt__head {
   font-size: 1.1vw;
   font-family: "Roboto";
@@ -447,7 +449,7 @@ body {
   position: absolute;
   left: 24vw;
   top: 8vw;
-  z-index: 200;
+  z-index: 75;
 }
 .footer-block-txt__text {
   font-size: 1.2vw;
@@ -478,7 +480,7 @@ body {
   top: 35vw;
   width: 270px;
   height: 50px;
-  z-index: 8;
+  z-index: 188;
 }
 .all__rights {
   position: relative;
